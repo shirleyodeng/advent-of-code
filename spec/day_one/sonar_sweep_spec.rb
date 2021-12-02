@@ -1,7 +1,7 @@
 require 'day_one/sonar_sweep'
 
 RSpec.describe DayOne::SonarSweep do
-  let(:measurements) { File.read('spec/fixtures/day_one/input.text').split }
+  let(:measurements) { File.read('spec/fixtures/day_one.text').split }
 
   subject { described_class.new(measurements: measurements) }
 
